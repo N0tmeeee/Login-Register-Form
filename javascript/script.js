@@ -29,10 +29,10 @@ function register(event) {
   localStorage.setItem("registeredPass", password);
 
   alert("Registration successful! Redirecting to login...");
-  window.location.href = "login.html";
+  window.location.href = "html/login.html"; // Redirect from root to html/login.html
 }
 
-// Function to handle login on login.html
+// Function to handle login on html/login.html
 function login(event) {
   if (event) event.preventDefault();
 
@@ -43,13 +43,13 @@ function login(event) {
   const savedPass = localStorage.getItem("registeredPass") || "password123";
 
   if (usernameInput === savedUser && passwordInput === savedPass) {
-    window.location.href = "page1.html";
+    window.location.href = "page1.html"; // Staying inside html/ folder
   } else {
     alert("Invalid username or password. Please try again.");
   }
 }
 
-// Function to handle navigation from page1.html to page2.html
+// Function to handle navigation from html/page1.html to html/page2.html
 function page2() {
-  window.location.href = "page2.html";
+  window.location.href = "page2.html"; // Staying inside html/ folder
 }
