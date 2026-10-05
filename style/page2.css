@@ -1,27 +1,27 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aqua;
-    background: url(/src/stellar-cluster-illuminating-the-night-sky-zg-2560x1440.jpg);
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aqua;
+  background: url(../src/stellar-cluster-illuminating-the-night-sky-zg-2560x1440.jpg);
 }
-.test{
-    border: 5px;
-    border-radius: 10px;
-    border-style: solid;
-    margin: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: transparent;
-    backdrop-filter: blur(10px);
+.test {
+  border: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  margin: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
 }
-.test{
-    font-family: AKbalthom Freehand;
-    font-size: 25px;
+.test {
+  font-family: AKbalthom Freehand;
+  font-size: 25px;
 }
-.text{
-    white-space: pre-wrap;
-    margin: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+.text {
+  white-space: pre-wrap;
+  margin: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
