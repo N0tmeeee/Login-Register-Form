@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sothearith</title>
+    <link rel="icon" href="/src/Dino.png" />
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <div class="login-card">
+      <h2>Register</h2>
+
+      <form onsubmit="register(event)">
+        <div class="input-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" placeholder="Username" required />
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="********"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="passwordConfirm">Confirm Password:</label>
+          <input
+            type="password"
+            id="passwordConfirm"
+            placeholder="********"
+            required
+          />
+        </div>
+
+        <div class="remember-me">
+          <input type="checkbox" id="remember" />
+          <label for="remember">Remember me</label>
+        </div>
+
+        <button type="submit" class="login-button">Register</button>
+      </form>
+    </div>
+    <script src="/javascript/script.js"></script>
+  </body>
+</html>

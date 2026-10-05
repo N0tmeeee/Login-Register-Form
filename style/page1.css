@@ -1,0 +1,121 @@
+.topbar{
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 0;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    margin-bottom:10px ;
+}
+body{
+    background: url(/src/stellar-cluster-illuminating-the-night-sky-zg-2560x1440.jpg) ;
+    color: rgb(174, 208, 239);
+}
+.photos{
+    color: gold;
+    border: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.photo{
+    color: aliceblue;
+    width: 25%;
+    height: 250px;
+    overflow: hidden;
+    margin-left: 5px;
+    border: 2px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+.toptext {
+    white-space: pre-wrap;
+}
+.First{
+    text-align: center;     
+    border-left: 5px;
+    border-right: 5px;
+}
+hr{
+    background-color: indigo;
+    width: 90%;
+    height: 10px;
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: -100px;
+}
+.middle h2 u{
+    font-family: AKbalthom Freehand;
+}
+.buttom{
+    white-space: pre-wrap;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.box{
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    border: 3px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+}
+.container{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+.buttom p img{
+    border: 10px;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: rgb(101, 95, 207);
+}
+.button{
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(180deg, #1e5799 0%, #003366 100%);
+  border: none;
+  border-radius: 25px; /* Pill shape */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.button:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(93, 171, 255, 0.6);
+}
+
+.button:active{
+  transform: translateY(0);
+}
