@@ -8,7 +8,7 @@ body {
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* Using a dark gradient to mimic the nebula background */
-  background: url(./src/stellar-cluster-illuminating-the-night-sky-zg-2560x1440.jpg);
+  background: url(../src/stellar-cluster-illuminating-the-night-sky-zg-2560x1440.jpg);
   color: white;
 }
 

@@ -29,7 +29,7 @@ function register(event) {
   localStorage.setItem("registeredPass", password);
 
   alert("Registration successful! Redirecting to login...");
-  window.location.href = "html/login.html"; // Redirect from root to html/login.html
+  window.location.href = "html/login.html";
 }
 
 // Function to handle login on html/login.html
@@ -43,7 +43,7 @@ function login(event) {
   const savedPass = localStorage.getItem("registeredPass") || "password123";
 
   if (usernameInput === savedUser && passwordInput === savedPass) {
-    window.location.href = "page1.html"; // Staying inside html/ folder
+    window.location.href = "page1.html";
   } else {
     alert("Invalid username or password. Please try again.");
   }
@@ -51,5 +51,5 @@ function login(event) {
 
 // Function to handle navigation from html/page1.html to html/page2.html
 function page2() {
-  window.location.href = "page2.html"; // Staying inside html/ folder
+  window.location.href = "page2.html";
 }
